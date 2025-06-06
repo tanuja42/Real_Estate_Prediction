@@ -34,14 +34,7 @@ Decision Tree Regressor: Also tested using GridSearchCV
 Model Selection:
 Used cross-validation and GridSearchCV to tune hyperparameters and select the best model.
 
-🖥️ How to Run
-Clone this repository:
-git clone https://github.com/your-username/bengaluru-real-estate-price-prediction.git
-cd bengaluru-real-estate-price-prediction
-Install dependencies:
-pip install -r requirements.txt
-Run the Jupyter Notebook:
-jupyter notebook bhp.ipynb
+
 
 The model allows prediction of real estate prices given the following input:
 Location
@@ -55,11 +48,7 @@ Achieved a good R² score on test data using Linear Regression.
 Removed outliers and multicollinearity, resulting in more reliable predictions.
 Trained model is saved using Pickle for deployment.
 
-🚀 Future Work
-Build a Flask or Django web app interface
-Deploy as a REST API using Flask
-Enhance model using advanced regression techniques (XGBoost, RandomForest)
-Integrate live data for price trends
+
 
 👩‍💻 Author
 Tanuja Mahendrakar
